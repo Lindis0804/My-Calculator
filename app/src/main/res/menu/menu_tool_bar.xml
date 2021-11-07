@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group>
+        <item
+            android:id="@+id/history"
+            android:icon="@drawable/ic_history"
+            android:menuCategory="alternative"
+            android:title="History"
+            app:showAsAction="ifRoom" />
+    </group>
+
+    <item
+        android:title="Keep on top"
+        android:id="@+id/move_screen"
+        android:icon="@drawable/ic_sharp_open_in_new"
+        app:showAsAction="ifRoom"
+        />
+</menu>
